@@ -20,6 +20,18 @@ client.on('message', message => {
       }
 });
 
+client.on('message', message => {
+    if (message.content === 'باك') {
+        message.reply('ولكم ');
+      }
+});
+
+
+client.on('message', message => {
+    if (message.content === 'برب') {
+        message.reply('في دهيه ');
+      }
+});
 
 
 
