@@ -14,5 +14,13 @@ client.user.setGame(`-help | ${client.guilds.size} Servers `,"http://twitch.tv/P
 client.user.setStatus("dnd")
 });
 
+client.on('message', message => {
+    if (message.content === 'دنجوان') {
+        message.reply('قلب دنجوان ');
+      }
+});
+
+
+
 
 client.login(process.env.BOT_TOKEN); 
