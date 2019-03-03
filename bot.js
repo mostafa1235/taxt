@@ -14,22 +14,44 @@ client.user.setGame(`-help | ${client.guilds.size} Servers `,"http://twitch.tv/P
 client.user.setStatus("dnd")
 });
 
+
 client.on('message', message => {
     if (message.content === 'دنجوان') {
-        message.reply('قلب دنجوان ');
+        message.reply('عاده مايتم الرد غير بعد دقائق :hearts: ');
       }
 });
 
 client.on('message', message => {
     if (message.content === 'باك') {
-        message.reply('ولكم ');
+        message.reply('ولكم يمز نورت ');
       }
 });
 
 
 client.on('message', message => {
     if (message.content === 'برب') {
-        message.reply('في دهيه ');
+        message.reply('لا تطول يقلبي ');
+      }
+});
+
+
+client.on('message', message => {
+    if (message.content === 'وين دنجوان') {
+        message.reply('عندو مشاغل يقلبي شوي وجي ');
+      }
+});
+
+
+client.on('message', message => {
+    if (message.content === 'متا دنجوان يفتح') {
+        message.reply('كل ساعه ازا كان حي انشاء الله');
+      }
+});
+
+
+client.on('message', message => {
+    if (message.content === 'السلام عليكم') {
+        message.reply('وعليكم السلام ورحمة الله وبركاته نورت');
       }
 });
 
